@@ -1,4 +1,4 @@
-# TSDX React User Guide
+# simple react animations v2
 
 Congrats! You just saved yourself hours of work by Importing one of many custom Animations.
 
@@ -13,7 +13,7 @@ npm i simple-react-animations-v2
 Usage :
 
 ```bash
-import { Card1, Flower3, Jasmine } from "simple-react-animations-v2";
+import { Card3, Flower3, Zelda1, Jasmine } from "simple-react-animations-v2";
 
 import "simple-react-animations-v2/dist/simple-react-animations-v2.cjs.development.css";
 
@@ -21,11 +21,13 @@ function App() {
 
   return (
     <div className="App">
-      <Card1/>
+      <Card3/>
 
       <Flower3/>
 
       <Jasmine/>
+
+      <Zelda1/>
     </div>
   );
 }
@@ -74,7 +76,7 @@ It is important to add the Second import to use the Css Animations along side va
 ---
 
 <details>
-<summary>Jasmine</summary>
+<summary>Jasmine , Jinx</summary>
 <br>
 
 ```
@@ -82,7 +84,30 @@ It is important to add the Second import to use the Css Animations along side va
   size="300px"
   border="solid thin black"
 />
+
+<Jinx/>
+
 ```
 
 </details>
-# School-of-Code_Animations_Site
+
+---
+
+<details>
+<summary>Zelda1 , Zelda2</summary>
+<br>
+
+```
+<Zelda1
+  size="300px"
+  border="solid thin black"
+/>
+
+<Zelda2
+  size="300px"
+  border="solid thin black"
+/>
+
+```
+
+</details>
